@@ -1,0 +1,16 @@
+DROP KEYSPACE IF EXISTS "User_Keyspace";
+
+DROP TABLE IF EXISTS "User";
+DROP TABLE IF EXISTS "Image";
+DROP TABLE IF EXISTS "Tag";
+DROP TABLE IF EXISTS "Code";
+DROP TABLE IF EXISTS "Image_by_email";
+DROP TABLE IF EXISTS "Images_uploaded_by_email";
+DROP TABLE IF EXISTS "Generated_html_page";
+DROP TABLE IF EXISTS "Generation";
+DROP TABLE IF EXISTS "Confirmed_generation";
+
+DROP TYPE IF EXISTS "user_name";
+DROP TYPE IF EXISTS "phone";
+DROP TYPE IF EXISTS "address";
+DROP TYPE IF EXISTS "size";
