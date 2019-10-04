@@ -1,16 +1,9 @@
-DROP KEYSPACE IF EXISTS "User_Keyspace";
+DROP KEYSPACE IF EXISTS image2code;
 
-DROP TABLE IF EXISTS "User";
-DROP TABLE IF EXISTS "Image";
-DROP TABLE IF EXISTS "Tag";
-DROP TABLE IF EXISTS "Code";
-DROP TABLE IF EXISTS "Image_by_email";
-DROP TABLE IF EXISTS "Images_uploaded_by_email";
-DROP TABLE IF EXISTS "Generated_html_page";
-DROP TABLE IF EXISTS "Generation";
-DROP TABLE IF EXISTS "Confirmed_generation";
+DROP TYPE IF EXISTS image2code.role;
+DROP TYPE IF EXISTS image2code.page;
 
-DROP TYPE IF EXISTS "user_name";
-DROP TYPE IF EXISTS "phone";
-DROP TYPE IF EXISTS "address";
-DROP TYPE IF EXISTS "size";
+DROP TABLE IF EXISTS image2code.user_details;
+DROP TABLE IF EXISTS image2code.user_pages;
+DROP TABLE IF EXISTS image2code.num_of_uploaded_images_by_user;
+DROP TABLE IF EXISTS image2code.num_of_generated_pages;
